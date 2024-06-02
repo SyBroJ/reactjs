@@ -1,0 +1,47 @@
+.bgcolor {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(
+    158deg,
+    rgb(224, 224, 224) 0%,
+    rrgba(233, 237, 254) 100%
+  );
+  .MuiPickersLayout-root {
+    margin-top: 210px !important;
+  }
+  .custom-table {
+    margin: 10px 50px 35px 35px;
+
+    table {
+      vertical-align: baseline !important;
+      th {
+        .customcolumn {
+          text-align: center !important;
+        }
+      }
+      tr {
+        .customcolumn {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+  .custom-shedule {
+    height: 100%;
+    padding: 40px 0px 0px 30px;
+    .tilet-custom {
+      background-color: #fcbf49;
+      color: #333;
+      border: none;
+    }
+  }
+}
+.modal-content {
+  border: none;
+  .modal-body {
+    border: none;
+  }
+  .modal-footer {
+    border: none;
+  }
+}
